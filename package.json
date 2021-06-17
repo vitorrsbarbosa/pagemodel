@@ -1,0 +1,27 @@
+{
+  "name": "pagemodel",
+  "version": "1.0.0",
+  "description": "Studies about page-model objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "testcafe": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorrsbarbosa/pagemodel.git"
+  },
+  "keywords": [
+    "testcafe",
+    "page-model"
+  ],
+  "author": "Vitor Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorrsbarbosa/pagemodel/issues"
+  },
+  "homepage": "https://github.com/vitorrsbarbosa/pagemodel#readme"
+}
