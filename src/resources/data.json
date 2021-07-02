@@ -1,0 +1,29 @@
+[
+	{
+		"firstname": "vitor",
+		"lastname": "barbosa",
+		"birthday": "8",
+		"birthmonth": "March",
+		"birthyear": "1994",
+		"email": "vrsb",
+		"password": "123456"
+	},
+	{
+		"firstname": "anakin",
+		"lastname": "skywalker",
+		"birthday": "8",
+		"birthmonth": "March",
+		"birthyear": "1994",
+		"email": "ani",
+		"password": "123456"
+	},
+	{
+		"firstname": "ash",
+		"lastname": "ketchum",
+		"birthday": "8",
+		"birthmonth": "March",
+		"birthyear": "1994",
+		"email": "pkm.master",
+		"password": "123456"
+	}
+]

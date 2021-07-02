@@ -1,27 +1,37 @@
 {
-  "name": "pagemodel",
-  "version": "1.0.0",
-  "description": "Studies about page-model objects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@ffmpeg-installer/ffmpeg": "^1.0.20",
-    "testcafe": "^1.14.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vitorrsbarbosa/pagemodel.git"
-  },
-  "keywords": [
-    "testcafe",
-    "page-model"
-  ],
-  "author": "Vitor Barbosa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vitorrsbarbosa/pagemodel/issues"
-  },
-  "homepage": "https://github.com/vitorrsbarbosa/pagemodel#readme"
+	"name": "pagemodel",
+	"version": "1.0.0",
+	"description": "Studies about page-model objects",
+	"main": "index.js",
+	"scripts": {
+		"all-tests": "testcafe"
+	},
+	"dependencies": {
+		"@ffmpeg-installer/ffmpeg": "^1.0.20",
+		"@types/node": "^15.14.0",
+		"chromedriver": "^91.0.1",
+		"env-var": "7.0.1",
+		"pg": "^8.6.0",
+		"serve": "^12.0.0",
+		"testcafe": "^1.14.2",
+		"testcafe-angular-selectors": "^0.4.1",
+		"testcafe-reporter-allure": "^1.0.5",
+		"testcafe-reporter-html": "^1.4.6",
+		"ts-node": "^10.0.0",
+		"typescript": "^4.3.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vitorrsbarbosa/pagemodel.git"
+	},
+	"keywords": [
+		"testcafe",
+		"page-model"
+	],
+	"author": "Vitor Barbosa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vitorrsbarbosa/pagemodel/issues"
+	},
+	"homepage": "https://github.com/vitorrsbarbosa/pagemodel#readme"
 }

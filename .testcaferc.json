@@ -1,0 +1,12 @@
+{
+	"browsers": "chrome",
+	"src": "src/test/",
+	"skipJsErrors": true,
+	"skipUncaughtErrors": true,
+	"reporter": "list",
+	"concurrency": 1,
+	"selectorTimeout": 3000,
+	"assertionTimeout": 1000,
+	"pageLoadTimeout": 15000,
+	"maximizeWindow": true
+}
