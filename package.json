@@ -7,14 +7,7 @@
 		"all-tests": "testcafe"
 	},
 	"dependencies": {
-		"@ffmpeg-installer/ffmpeg": "^1.0.20",
-		"@types/node": "^15.14.0",
-		"chromedriver": "^91.0.1",
-		"env-var": "7.0.1",
-		"pg": "^8.6.0",
-		"serve": "^12.0.0",
 		"testcafe": "^1.14.2",
-		"testcafe-angular-selectors": "^0.4.1",
 		"testcafe-reporter-allure": "^1.0.5",
 		"testcafe-reporter-html": "^1.4.6",
 		"ts-node": "^10.0.0",
@@ -33,5 +26,14 @@
 	"bugs": {
 		"url": "https://github.com/vitorrsbarbosa/pagemodel/issues"
 	},
-	"homepage": "https://github.com/vitorrsbarbosa/pagemodel#readme"
+	"homepage": "https://github.com/vitorrsbarbosa/pagemodel#readme",
+	"devDependencies": {
+		"@cucumber/cucumber": "^7.3.0",
+		"chromedriver": "^91.0.1",
+		"env-var": "7.0.1",
+		"pg": "^8.6.0",
+		"serve": "^12.0.0",
+		"testcafe-angular-selectors": "^0.4.1",
+		"@types/node": "^15.14.0"
+	}
 }
